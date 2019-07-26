@@ -1,0 +1,12 @@
+IC,Description,Voltage pin,Min Voltage,Typ Voltage,Max Voltage,Min Current,Typ Current,Max Current
+QG-2864KSWLG01,OLED display,VDD,1.65V,2.8V,3.3V,-,180uA,300uA
+,,VCC,-,12V,-,-,23mA,32mA
+TPA3220,Class D,PVDD,7V,30V,32V,1mA,1A,4A
+,,VDD,4.5V,5V,5.5V,50uA,150uA,-
+,,AVDD,4.5V,5V,5.5V,1mA,10mA,-
+,,GVDD,4.5V,5V,5.5V,50uA,16mA,-
+nRF52840,Microcontroller,VDDH,2.5V,3.7V,5.5V,2uA,12mA,30mA
+TLV320,Codec,AVDD_DAC,2.7V,3.3V,3.6V,0.1uA,5mA,-
+,,DRVDD,2.7V,3.3V,3.6V,0.1uA,5mA,-
+,,DVDD,1.65V,1.8V,1.95V,0.2uA,4mA,-
+,,IOVDD,1.1V,1.8V,3.6V,0.1uA,1uA,-
