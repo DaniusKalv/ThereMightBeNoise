@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\ThereMightBeNoise\ThereMightBeNoise.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_NFC|Scope=Board|Minimum=9.84
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_GND_Chassis|Scope=Board|Minimum=35.43
+RuleKind=Clearance|RuleName=Clearance_Digital|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance_Diff|Scope=Board|Minimum=5.91
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.99
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
