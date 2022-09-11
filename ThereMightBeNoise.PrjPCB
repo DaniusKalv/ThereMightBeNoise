@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=C:\Users\Public\Documents\Altium\My Libraries\dk_altium_library\Schematic Templates\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=1
 NetlistSinglePinNets=0
@@ -21,13 +21,15 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -55,40 +57,6 @@ GenerateClassCluster=0
 DocumentUniqueId=IVSOCRUL
 
 [Document2]
-DocumentPath=BL654.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BRLOYRGQ
-
-[Document3]
-DocumentPath=BL654.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +73,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TSDQENVS
 
-[Document5]
+[Document3]
 DocumentPath=Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +90,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document4]
 DocumentPath=Codec.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +107,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RSPRBQYI
 
-[Document7]
+[Document5]
 DocumentPath=Codec.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +124,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=Amplifier.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GAGNGWXP
 
-[Document9]
+[Document7]
 DocumentPath=Amplifier.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +158,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document8]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +175,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WJPBCMRD
 
-[Document11]
+[Document9]
 DocumentPath=UI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +192,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVUPKNHK
 
-[Document12]
+[Document10]
 DocumentPath=ThereMightBeNoise.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +209,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document11]
 DocumentPath=UI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +226,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document12]
 DocumentPath=ThereMightBeNoise.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -273,9 +241,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BBTXHDQQ
+DocumentUniqueId=YONRMCHO
 
-[Document15]
+[Document13]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_capacitive_touch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +260,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FYWTESWW
 
-[Document16]
+[Document14]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_capacitors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +277,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JWTEQWEX
 
-[Document17]
+[Document15]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +294,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SOXVANKG
 
-[Document18]
+[Document16]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_diodes.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +311,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDPALDOO
 
-[Document19]
+[Document17]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_electrolytic_caps.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +328,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ACTXMPMN
 
-[Document20]
+[Document18]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_electromechanical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +345,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PMUFIUDC
 
-[Document21]
+[Document19]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_audio.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +362,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QGMNGIBN
 
-[Document22]
+[Document20]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_drivers.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,7 +379,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KTZBUSTE
 
-[Document23]
+[Document21]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_interface.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +396,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GHOYBAWN
 
-[Document24]
+[Document22]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_memory.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +413,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WVNTJQVF
 
-[Document25]
+[Document23]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_microcontrollers.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +430,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SVWVETJD
 
-[Document26]
+[Document24]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_power.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +447,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIAVQEKF
 
-[Document27]
+[Document25]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_protection.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +464,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBXANTPJ
 
-[Document28]
+[Document26]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_ic_sensors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +481,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJRBFQCO
 
-[Document29]
+[Document27]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_inductors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +498,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MAKCPHWM
 
-[Document30]
+[Document28]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_optoelectronics.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +515,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APIAXHQB
 
-[Document31]
+[Document29]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_passive.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +532,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CPUTGBWS
 
-[Document32]
+[Document30]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_pcb_special.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +549,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FIQHXVRC
 
-[Document33]
+[Document31]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_power.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -596,9 +564,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DECKGCYW
+DocumentUniqueId=JLWNFVRC
 
-[Document34]
+[Document32]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_protection.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -615,7 +583,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NPAKAELQ
 
-[Document35]
+[Document33]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_resistors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -632,7 +600,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KEBXGBJJ
 
-[Document36]
+[Document34]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_rf.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -649,7 +617,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LLWMJPSI
 
-[Document37]
+[Document35]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_timing.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -666,7 +634,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BELUPQND
 
-[Document38]
+[Document36]
 DocumentPath=..\..\My Libraries\dk_altium_library\dk_transistors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -683,8 +651,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMKGEDUQ
 
-[Document39]
+[Document37]
 DocumentPath=nRF5340.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SUFEHQON
+
+[Document38]
+DocumentPath=Microcontroller.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BRLOYRGQ
+
+[Document39]
+DocumentPath=USBCharger.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CWCPGOFR
+
+[Document40]
+DocumentPath=USBCharger.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -698,18 +717,145 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SUFEHQON
+DocumentUniqueId=
+
+[Document41]
+DocumentPath=Microcontroller.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document42]
+DocumentPath=ThereMightBeNoise.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document43]
+DocumentPath=Power.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document44]
+DocumentPath=ThereMightBeNoise.PvLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document45]
+DocumentPath=BL654.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=AE2C6D82-5A2D-4B9D-B1EB-748B3D5EC052
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=5
 Variation1=Designator=R34|UniqueId=\VCBCNPFX\JAANHNMH|Kind=1|AlternatePart= 
 Variation2=Designator=R1|UniqueId=\IOOSNSXF\YELAVWEP|Kind=1|AlternatePart= 
 Variation3=Designator=R35|UniqueId=\MLLLEAVL\SEYWFCIU|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation4=Designator=Y2|UniqueId=\CHOMDUUO\IIEQDNLV\MCUSJZLG|Kind=2|AlternatePart==Frequency+'/'+Tolerance|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\Public\Documents\Altium\My Libraries\dk_altium_library\dk_timing.SchLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=XRCGB32M000F2P2CR0|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=dk_timing.SchLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=XTAL_2X1_6|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Comment|VariantValue==Frequency+'/'+Tolerance
+ParamDesignator1=Y2
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=Y2
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Datasheets
+ParamDesignator3=Y2
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=https://www.mouser.co.uk/datasheet/2/281/SPEC-XRCGB32M000F2P2CR0-1879373.pdf
+ParamDesignator4=Y2
+ParamVariation5=ParameterName=Description|VariantValue=Crystals 2x1.6mm 32MHz 20ppm Crystal Unit
+ParamDesignator5=Y2
+ParamVariation6=ParameterName=Footprint|VariantValue=XTAL_2X1_6
+ParamDesignator6=Y2
+ParamVariation7=ParameterName=Frequency|VariantValue=32MHz
+ParamDesignator7=Y2
+ParamVariation8=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator8=Y2
+ParamVariation9=ParameterName=Library Reference|VariantValue=XRCGB32M000F2P2CR0
+ParamDesignator9=Y2
+ParamVariation10=ParameterName=Load Capacitance|VariantValue=8pF
+ParamDesignator10=Y2
+ParamVariation11=ParameterName=Manufacturer 1|VariantValue=Murata Electronics
+ParamDesignator11=Y2
+ParamVariation12=ParameterName=Manufacturer Part Number 1|VariantValue=XRCGB32M000F2P2CR0
+ParamDesignator12=Y2
+ParamVariation13=ParameterName=PCB3D|VariantValue= 
+ParamDesignator13=Y2
+ParamVariation14=ParameterName=Pin Info|VariantValue= 
+ParamDesignator14=Y2
+ParamVariation15=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator15=Y2
+ParamVariation16=ParameterName=Simulation|VariantValue= 
+ParamDesignator16=Y2
+ParamVariation17=ParameterName=Specifications|VariantValue==Frequency+' '+' '+"Load Capacitance"+' '+Tolerance
+ParamDesignator17=Y2
+ParamVariation18=ParameterName=Supplier 1|VariantValue=Mouser
+ParamDesignator18=Y2
+ParamVariation19=ParameterName=Supplier Part Number 1|VariantValue=81-XRCGB32M000F2P2CR
+ParamDesignator19=Y2
+ParamVariation20=ParameterName=Tolerance|VariantValue=20ppm
+ParamDesignator20=Y2
+Variation5=Designator=R28|UniqueId=\VCBCNPFX\LWPLPAXX|Kind=1|AlternatePart= 
+ParamVariationCount=20
 
 [SearchPath1]
 Path=..\..\My Libraries\dk_altium_library\*.*
@@ -725,7 +871,7 @@ Value=dk_01017
 
 [Parameter3]
 Name=ProjectRevision
-Value=v1.1
+Value=v2.0
 
 [Parameter4]
 Name=ProjectTitle
@@ -783,7 +929,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -889,7 +1035,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon MG4100 series Printer WS
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -967,7 +1113,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -989,7 +1135,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -1069,7 +1215,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1106,7 +1252,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1214,7 +1360,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Server's components states check
@@ -1258,7 +1404,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1319,7 +1465,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Canon MP280 series Printer
+TargetPrinter=RICOH SP 213SUw PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1642,6 +1788,8 @@ MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1689,333 +1837,68 @@ UpdateVariants=0
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=dk_connectors.SchLib
-ComponentDesignItemID0=12401610E4#2A
-ComponentSymbolReference0=12401610E4#2A
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=dk_capacitors.SchLib
+ComponentDesignItemID0=1n 50V X7R 0402
+ComponentSymbolReference0=1n 50V X7R 0402
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=dk_connectors.SchLib
-ComponentDesignItemID1=NC3FAAH1
-ComponentSymbolReference1=NC3FAAH1
+ComponentLibraryIdentifier1=dk_ic_microcontrollers.SchLib
+ComponentDesignItemID1=nRF5340-QKAAAA
+ComponentSymbolReference1=nRF5340-QKAAAA
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=dk_connectors.SchLib
-ComponentDesignItemID2=PADS-POGO-4P
-ComponentSymbolReference2=PADS-POGO-4P
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=dk_connectors.SchLib
-ComponentDesignItemID3=PJ-002AH-SMT-TR
-ComponentSymbolReference3=PJ-002AH-SMT-TR
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=dk_connectors.SchLib
-ComponentDesignItemID4=SMD-PAD
-ComponentSymbolReference4=SMD-PAD
-ComponentUpdate4=0
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=dk_diodes.SchLib
-ComponentDesignItemID5=DB2G40800L1
-ComponentSymbolReference5=DB2G40800L1
-ComponentUpdate5=0
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=dk_electrolytic_caps.SchLib
-ComponentDesignItemID6=Wurth-470uF-10V-L10.5-D8
-ComponentSymbolReference6=Wurth-470uF-10V-L10.5-D8
-ComponentUpdate6=0
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=dk_electrolytic_caps.SchLib
-ComponentDesignItemID7=Wurth-470uF-50V-L17-D16
-ComponentSymbolReference7=Wurth-470uF-50V-L17-D16
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=dk_electromechanical.SchLib
-ComponentDesignItemID8=PEC12R-2220F-S0024
-ComponentSymbolReference8=PEC12R-2220F-S0024
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=dk_ic_audio.SchLib
-ComponentDesignItemID9=TLV320AIC3106
-ComponentSymbolReference9=TLV320AIC3106
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=dk_ic_audio.SchLib
-ComponentDesignItemID10=TPA3220DDW
-ComponentSymbolReference10=TPA3220DDW
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=dk_ic_microcontrollers.SchLib
-ComponentDesignItemID11=BL654
-ComponentSymbolReference11=BL654
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=dk_ic_power.SchLib
-ComponentDesignItemID12=MAX17671
-ComponentSymbolReference12=MAX17671
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=dk_ic_power.SchLib
-ComponentDesignItemID13=MIC5504-1.8YM5
-ComponentSymbolReference13=MIC5504-1.8YM5
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=dk_ic_power.SchLib
-ComponentDesignItemID14=MP2456
-ComponentSymbolReference14=MP2456
-ComponentUpdate14=1
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=dk_ic_protection.SchLib
-ComponentDesignItemID15=SP0503BAHTG
-ComponentSymbolReference15=SP0503BAHTG
-ComponentUpdate15=0
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=dk_inductors.SchLib
-ComponentDesignItemID16=PA4342.103NLT
-ComponentSymbolReference16=PA4342.103NLT
-ComponentUpdate16=0
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=dk_inductors.SchLib
-ComponentDesignItemID17=PM105SB-330L-RC
-ComponentSymbolReference17=PM105SB-330L-RC
-ComponentUpdate17=0
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=dk_inductors.SchLib
-ComponentDesignItemID18=TYS6045221M-10
-ComponentSymbolReference18=TYS6045221M-10
-ComponentUpdate18=0
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=dk_optoelectronics.SchLib
-ComponentDesignItemID19=QG-2864KSWLG01
-ComponentSymbolReference19=QG-2864KSWLG01
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
-ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=dk_passive.SchLib
-ComponentDesignItemID20=C0402
-ComponentSymbolReference20=C0402
-ComponentUpdate20=0
-ComponentIsDeviceSheet20=0
-ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=dk_passive.SchLib
-ComponentDesignItemID21=C0603
-ComponentSymbolReference21=C0603
-ComponentUpdate21=0
-ComponentIsDeviceSheet21=0
-ComponentLibIdentifierKind22=Library Name And Type
-ComponentLibraryIdentifier22=dk_passive.SchLib
-ComponentDesignItemID22=C0805
-ComponentSymbolReference22=C0805
-ComponentUpdate22=0
-ComponentIsDeviceSheet22=0
-ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=dk_passive.SchLib
-ComponentDesignItemID23=C1210
-ComponentSymbolReference23=C1210
-ComponentUpdate23=0
-ComponentIsDeviceSheet23=0
-ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=dk_passive.SchLib
-ComponentDesignItemID24=C2824
-ComponentSymbolReference24=C2824
-ComponentUpdate24=0
-ComponentIsDeviceSheet24=0
-ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=dk_passive.SchLib
-ComponentDesignItemID25=FB0402
-ComponentSymbolReference25=FB0402
-ComponentUpdate25=0
-ComponentIsDeviceSheet25=0
-ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=dk_passive.SchLib
-ComponentDesignItemID26=R0402
-ComponentSymbolReference26=R0402
-ComponentUpdate26=0
-ComponentIsDeviceSheet26=0
-ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=dk_timing.SchLib
-ComponentDesignItemID27=LFXTAL009706Bulk
-ComponentSymbolReference27=LFXTAL009706Bulk
-ComponentUpdate27=0
-ComponentIsDeviceSheet27=0
-FullReplace=1
+FullReplace=0
 UpdateDesignatorLock=0
 UpdatePartIDLock=0
 PreserveParameterLocations=1
 PreserveParameterVisibility=1
 DoGraphics=0
 DoParameters=1
-DoModels=0
+DoModels=1
 AddParameters=0
 RemoveParameters=1
 AddModels=1
 RemoveModels=0
 UpdateCurrentModels=0
-ParameterName0=Breakdown Voltage
+ParameterName0=Capacitance
 ParameterUpdate0=0
-ParameterName1=Capacitance
+ParameterName1=Comment
 ParameterUpdate1=0
-ParameterName2=Comment
+ParameterName2=Component Kind
 ParameterUpdate2=0
-ParameterName3=Component Kind
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=0
-ParameterName4=ComponentLink1Description
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=0
-ParameterName5=ComponentLink1URL
+ParameterName5=Description
 ParameterUpdate5=0
-ParameterName6=Current
+ParameterName6=Dielectric
 ParameterUpdate6=0
-ParameterName7=Current Rating
-ParameterUpdate7=1
-ParameterName8=Description
-ParameterUpdate8=0
-ParameterName9=Dielectric
-ParameterUpdate9=0
-ParameterName10=Diode Capacitance
-ParameterUpdate10=0
-ParameterName11=Forward Current
+ParameterName7=Library Reference
+ParameterUpdate7=0
+ParameterName8=Manufacturer 1
+ParameterUpdate8=1
+ParameterName9=Manufacturer Part Number 1
+ParameterUpdate9=1
+ParameterName10=Specifications
+ParameterUpdate10=1
+ParameterName11=Supplier 1
 ParameterUpdate11=0
-ParameterName12=Forward Voltage
+ParameterName12=Supplier Part Number 1
 ParameterUpdate12=0
-ParameterName13=Frequency
+ParameterName13=Tolerance
 ParameterUpdate13=0
-ParameterName14=Impedance
+ParameterName14=Voltage
 ParameterUpdate14=0
-ParameterName15=Inductance
-ParameterUpdate15=0
-ParameterName16=Library Reference
-ParameterUpdate16=0
-ParameterName17=Load Capacitance
-ParameterUpdate17=0
-ParameterName18=Manufacturer Part Number
-ParameterUpdate18=0
-ParameterName19=Parameter 2
-ParameterUpdate19=0
-ParameterName20=Parameter 3
-ParameterUpdate20=0
-ParameterName21=Power Dissipation
-ParameterUpdate21=0
-ParameterName22=Power Rating
-ParameterUpdate22=0
-ParameterName23=Resistance
-ParameterUpdate23=0
-ParameterName24=Specifications
-ParameterUpdate24=1
-ParameterName25=Stock
-ParameterUpdate25=0
-ParameterName26=Supplier 1
-ParameterUpdate26=0
-ParameterName27=Supplier Part Number 1
-ParameterUpdate27=0
-ParameterName28=Tolerance
-ParameterUpdate28=0
-ParameterName29=Type
-ParameterUpdate29=0
-ParameterName30=Voltage
-ParameterUpdate30=0
-ParameterName31=Voltage Rating
-ParameterUpdate31=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=12401610E4#2A
+ModelName0=AQFN-94
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=BL654
+ModelName1=C0402
 ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=C0402
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=C0603
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=C0805
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=C1210
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=C2824
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=CFPX-217
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=DCSP1006010-N1
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=FB0402
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=HTSSOP-44
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=NC3FAAH1
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=PA4342.103NLT
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=PEC12R-2xxxF-Sxxxx
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=PJ-002AH-SMT-TR
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=PM105SB
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=QG-2864KSWLG01
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=R0402
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=SMD-PAD
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=SOT143-4
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=SOT23-5
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=TDFN-10
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=TSOT-23-6
-ModelUpdate22=1
-ModelType23=PCBLIB
-ModelName23=TYS6045221M-10
-ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=VQFN-48
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=Wurth-L10.5-D8
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=Wurth-L17-D16
-ModelUpdate26=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -2024,12 +1907,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
