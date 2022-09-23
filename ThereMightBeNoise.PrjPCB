@@ -809,7 +809,7 @@ UniqueID=AE2C6D82-5A2D-4B9D-B1EB-748B3D5EC052
 Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=9
 Variation1=Designator=R34|UniqueId=\VCBCNPFX\JAANHNMH|Kind=1|AlternatePart= 
 Variation2=Designator=R1|UniqueId=\IOOSNSXF\YELAVWEP|Kind=1|AlternatePart= 
 Variation3=Designator=R35|UniqueId=\MLLLEAVL\SEYWFCIU|Kind=1|AlternatePart= 
@@ -855,6 +855,10 @@ ParamDesignator19=Y2
 ParamVariation20=ParameterName=Tolerance|VariantValue=20ppm
 ParamDesignator20=Y2
 Variation5=Designator=R28|UniqueId=\VCBCNPFX\LWPLPAXX|Kind=1|AlternatePart= 
+Variation6=Designator=C60|UniqueId=\VCBCNPFX\TGUYNBBW|Kind=1|AlternatePart= 
+Variation7=Designator=U4|UniqueId=\VCBCNPFX\KSSDCSTP|Kind=1|AlternatePart= 
+Variation8=Designator=C61|UniqueId=\VCBCNPFX\IWIQHECZ|Kind=1|AlternatePart= 
+Variation9=Designator=J6|UniqueId=\CHOMDUUO\OFGAOHET|Kind=1|AlternatePart= 
 ParamVariationCount=20
 
 [SearchPath1]
@@ -862,20 +866,20 @@ Path=..\..\My Libraries\dk_altium_library\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectAuthor
-Value=Danius Kalvaitis
+Name=ProjectTitle
+Value=There Might Be Noise
 
 [Parameter2]
-Name=ProjectNumber
-Value=dk_01017
-
-[Parameter3]
 Name=ProjectRevision
 Value=v2.0
 
+[Parameter3]
+Name=ProjectNumber
+Value=dk_01017
+
 [Parameter4]
-Name=ProjectTitle
-Value=There Might Be Noise
+Name=ProjectAuthor
+Value=Danius Kalvaitis
 
 [Configuration1]
 Name=Sources
@@ -1800,14 +1804,14 @@ L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
 L8=NNEENEENEEENNEENN
-L9=NNEENEEEENEWNEEWW
-L10=NNNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
-L12=WWWWNWWNWWWNWWWNN
+L9=NNEENEEEENEWNENWW
+L10=NNNNNNNENNEWNNNWN
+L11=NNENNNNEEENNNNNNN
+L12=WWWWNWWNWWNNWWWNN
 L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
-L15=NNENNNNEEENWNENWW
-L16=WWWWNWWNWWWNWWWNW
+L14=NWEENEEEENNWNEEWW
+L15=NNENNNNENNNWNENWW
+L16=WWWWNWWNWWNNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
