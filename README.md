@@ -7,7 +7,7 @@ This repository contains the HW files. The main brain of this amplifier is nRF53
 
 ## Top level block diagram
 ![Block diagram](Images/top-level.png)
-If you want to see a more detailed view, checkout the [schematic](ThereMightBeNoise_v2_0.pdf).
+If you want to see a more detailed view, checkout the [schematic](Documents/ThereMightBeNoise_v2_0.pdf).
 
 ## Features
 ![3d top](Images/3d-top.PNG)
