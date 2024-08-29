@@ -10,6 +10,7 @@ This repository contains the HW files. The main brain of this amplifier is nRF53
 If you want to see a more detailed view, checkout the [schematic](ThereMightBeNoise_v2_0.pdf).
 
 ## Features
+![PCB](Images/3d-top.png)
 ### Audio interfaces
 - USBC connection supporting USB audio
 - 3.5mm audio jack
